@@ -1,0 +1,7 @@
+How to set up for in-memory testing:
+
+- persistenceold.xml is the persistence file for PHYSICAL MYSQL database while the persistence.xml is set up for H2 in memory mode.
+- download and add h2*.jar from http://www.h2database.com/html/main.html into the project dependecies
+- EXTRA: add the hamcrest jar from /lib to your project dependency to utilize hamcrest matchers
+
+Note: you cannot run Main.java with the current persistence.xml. Rename persistenceold.xml to persistence.xml or change the contents of persistence.xml to reflect the appropriate persistence info

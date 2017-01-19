@@ -1,0 +1,11 @@
+# automatically ignored files from github repo
+
+# eclipse files
+.classpath
+.project
+.settings
+bin/
+target/
+pom.xml
+.DS_Store
+
